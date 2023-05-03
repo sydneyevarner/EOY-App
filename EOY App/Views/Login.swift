@@ -22,9 +22,20 @@ struct Login: View {
                             .padding(.bottom, 30)
                         
                         SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "apple")), text: Text("Sign in with Apple"))
+                            .image.resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 175)
                         
-                        SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "google")), text: Text("Sign in with Google").foregroundColor(Color("PrimaryColor")))
+                        SocalLoginButton(image: Image(uiImage: #imageLiteral(resourceName: "google")),
+                            text: Text("Sign in with Google"))
+                            .image.resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 60)
+                            .foregroundColor(Color("PrimaryColor"))
                             .padding(.vertical)
+                            
+                            
+                        
                         
                         Text("or get a link emailed to you")
                             .foregroundColor(Color.black.opacity(0.4))
@@ -38,14 +49,12 @@ struct Login: View {
                             .shadow(color: Color.black.opacity(0.08), radius: 60, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 16)
                             .padding(.vertical)
                         
-                        PrimaryButton(title: "Email me a signup link")
                         
                     }
                     
                     Spacer()
                     Divider()
                     Spacer()
-                    Text("You are completely safe.")
                     Text("Read our Terms & Conditions.")
                         .foregroundColor(Color("PrimaryColor"))
                     Spacer()

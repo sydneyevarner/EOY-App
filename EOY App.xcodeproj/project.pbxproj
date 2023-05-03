@@ -10,7 +10,6 @@
 		BB8AAFA029E9928500F04621 /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AAF9F29E9928500F04621 /* ViewB.swift */; };
 		BB8AAFA229E9929100F04621 /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AAFA129E9929100F04621 /* ViewC.swift */; };
 		BB8AAFA429E9979600F04621 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AAFA329E9979600F04621 /* Login.swift */; };
-		BB8AAFA629E997E400F04621 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AAFA529E997E400F04621 /* Welcome.swift */; };
 		BBB2EA5229E6F7120025DD93 /* EOY_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2EA5129E6F7120025DD93 /* EOY_AppApp.swift */; };
 		BBB2EA5429E6F7120025DD93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB2EA5329E6F7120025DD93 /* ContentView.swift */; };
 		BBB2EA5629E6F7140025DD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB2EA5529E6F7140025DD93 /* Assets.xcassets */; };
@@ -42,7 +41,6 @@
 		BB8AAF9F29E9928500F04621 /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
 		BB8AAFA129E9929100F04621 /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
 		BB8AAFA329E9979600F04621 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		BB8AAFA529E997E400F04621 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		BBB2EA4E29E6F7120025DD93 /* EOY App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EOY App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB2EA5129E6F7120025DD93 /* EOY_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOY_AppApp.swift; sourceTree = "<group>"; };
 		BBB2EA5329E6F7120025DD93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 				BB8AAF9F29E9928500F04621 /* ViewB.swift */,
 				BB8AAFA129E9929100F04621 /* ViewC.swift */,
 				BB8AAFA329E9979600F04621 /* Login.swift */,
-				BB8AAFA529E997E400F04621 /* Welcome.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,7 +285,6 @@
 				BB8AAFA429E9979600F04621 /* Login.swift in Sources */,
 				BBB2EA5229E6F7120025DD93 /* EOY_AppApp.swift in Sources */,
 				BB8AAFA029E9928500F04621 /* ViewB.swift in Sources */,
-				BB8AAFA629E997E400F04621 /* Welcome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
