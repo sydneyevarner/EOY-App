@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ViewC: View {
     var body: some View {
-        ZStack {
-            Color.white
-            
-            Image(systemName: "gearshape.fill")
-                .foregroundColor(Color.gray)
-                .font(.system(size: 100.0))
+        NavigationView {
+            List {
+                ForEach(Category.allCases) { category in
+                    NavigationLink {
+                        CategoryView(category: category)
+                    } label: {
+                        Text(category.rawValue + "s")
+                    }
+                }
+            }
+            .navigationTitle("Categories")
         }
+        .navigationViewStyle(.stack)
     }
 }
 

@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct EOY_AppApp: App {
+    @StateObject var recipesViewModel = RecipesViewModel()
+    
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(recipesViewModel)
         }
     }
 }
